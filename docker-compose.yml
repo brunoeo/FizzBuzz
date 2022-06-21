@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  fizz-buzz:
+    build:
+      context: .
+    ports:
+      - "80:8080"
